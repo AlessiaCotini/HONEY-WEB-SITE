@@ -150,6 +150,49 @@ h3{
 }
 }
 @media screen and (min-width: 769px){
-
-
+ul{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    justify-content: left;
+}
+nav{
+ max-width: 200px;   
+}
+header{
+    max-width: 200px;
+    width: 20%;
+    position: static;
+    left:0;
+}
+main, footer, .mainh3{
+    width: 80%;
+    position: relative;
+    right:-220px;
+    top:-250px;
+}
+h3{
+    text-align: left;
+    padding: 0 1em;
+    margin: 0;
+}
+.firstElement{
+    order:-1;
+}
+.aleArticle{display: none;}
+article{
+    display: inline-block;
+    width: 30%;
+}
+footer{
+display: flex;
+}
+footer img{
+    width: 300px;
+    height: 350px;
+};
+p{
+    padding:0.5;
+    margin:0;
+}
 }
